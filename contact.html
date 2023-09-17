@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum PABWE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layouts.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>&#9742; Contact Us</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <form>
+        <caption>
+          <h2 align="center">Hubungi Kami</h2>
+        </caption>
+        <form>
+          <label for="nama_lengkap">Nama Lengkap</label>
+          <input type="text" id="nama_lengkap" name="nama_lengkap">
+          <label for="email">Alamat Email</label>
+          <input type="text" id="email" name="email">
+        </form>
+        <tr>
+          <form>
+            <td>
+              <label for="kategori">Kategori</label> <br><br></td>
+            <td>
+            <input 
+            type="radio" 
+            id="report" 
+            name="kategori" 
+            value="report" 
+            />
+            <td>
+             <label for="report">Laporan</label>
+          <input
+          type="radio"
+          id="feedback"
+          name="kategori"
+          value="feedback"
+          /> 
+            </td>
+          <label for="feedback">Masukkan</label>
+        </tr>
+          </form>
+          
+        <tr>
+          <br>
+          <label for="teks_pesan">Pesan</label>
+          <input type="pesan" id="teks_pesan" name="teks_pesan">
+        </tr>
+
+        <tr align="center">
+          <td colspan="2">
+            <input
+            type="checkbox" 
+            id="verification"
+            name="verification"
+            value="1"
+            required
+            />
+            <label id="konfirmasi">Konfirmasi Tindakan</label>
+          </td>
+        </tr>
+        <br>
+        <button class="button">Kirim</button>
+      </table>
+    </form>
+    </main>
+  </body>
+</html>
